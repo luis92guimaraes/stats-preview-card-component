@@ -1,0 +1,10 @@
+@media(max-width:375px) {
+    /* main {
+        justify-content: column;
+
+    } */
+
+    .cartao {
+        flex-direction: column;
+    }
+}
