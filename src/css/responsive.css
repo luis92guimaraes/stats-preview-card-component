@@ -1,10 +1,62 @@
-@media(max-width:375px) {
-    /* main {
-        justify-content: column;
-
-    } */
+@media(max-width:1024px) {
+    main {
+        margin: 0 50px;
+    }
 
     .cartao {
-        flex-direction: column;
+        max-width: 1000px;
+    }
+
+    .content {
+        margin: 40px;
+    }
+    
+    .content h1 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .content p { 
+        margin-top: 50px;
+        font-size: 16px;
+    }
+
+    .content .stats {
+        gap: 40px;
+        margin-top: 10px;
+    }
+
+    .content .stats .info .contador { 
+        font-size: 18px;
+    }
+
+    .content .stats .info .tipo-contador {
+        font-size: 12px;
+    }
+
+    .image img {
+        width: 500px;
+        height: 100%;
+    }
+
+}   
+
+@media(max-width:768px) {
+
+    main {
+        margin: 0 40px;
+    }
+
+    .cartao {
+        width: 720px;
+    }
+
+    .content h1 {
+        font-size: 28px;
+    }
+
+    .image img {
+        width: 360px;
+
     }
 }

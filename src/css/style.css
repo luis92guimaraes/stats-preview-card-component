@@ -7,19 +7,19 @@ main {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin: 0 auto;
 }
 
 .cartao {
     display: flex;
     background-color: var(--bg-card-color);
-    width: 1080px;
-    height: 446px;
+    max-width: 1080px;
+    max-height: 446px;
     border-radius: 10px;
-    overflow: hidden;
 }
 
 .content {
-    margin: 70px ;
+    margin: 60px ;
 }
 
 .content h1 {
@@ -41,7 +41,7 @@ main {
     font-size: 16px;
     font-weight: 400;
     line-height: 25px;
-    margin-top: 25px;
+    margin-top: 40px;
 }
 
 .content .stats {
@@ -67,10 +67,11 @@ main {
 }
 
 .image {
-    height: 100%;
     background-color: var(--img-color);
 }
 
-.image img {    
+.image img {  
+    border-radius: 0 10px 10px 0;
+    height: 100%;
     filter: brightness(90%) contrast(100%) sepia(50%) hue-rotate(270deg) opacity(.4);
 }
