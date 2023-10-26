@@ -3,7 +3,7 @@
         font-size: 35px;
 }
     .content {
-        padding: 40px;
+        padding: 30px;
 }
 }
 
@@ -15,8 +15,8 @@
 
 @media (max-width: 1024px) {
     .image img {
-    width: 100%;
-    border-radius: 10px 10px 0 0;
+        width: 100%;
+        border-radius: 10px 10px 0 0;
 }
     .cartao {
         flex-direction: column-reverse;
@@ -33,12 +33,10 @@
 
     .content p {
         font-size: 18px;
-        padding: 0 70px;
     }
 
     .content .stats .contador {
         font-size: 28px;
-        margin-bottom: 10px;
     }
 
     .content .stats .tipo-contador {
@@ -54,4 +52,23 @@
         align-items: center;
         gap: 50px;
 }
+}
+
+@media (max-width: 375px) {
+    
+    .content h1 {
+        font-size: 23px;
+    }
+
+    .content p {
+        font-size: 12px;
+    }
+
+    .content .stats .contador {
+        font-size: 18px;
+    }
+
+    .content .stats .tipo-contador {
+        font-size: 11px;
+    }
 }
